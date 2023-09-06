@@ -19,10 +19,18 @@ class _HomePageState extends State<HomePage> {
   final _database = FirebaseDatabase.instance.ref();
 
   @override
-  void initState() {
+  void initState() async {
     super.initState();
     users = [];
+
     isLoading = true;
+
+    await precacheImage(
+      const AssetImage(
+        "assets/images/placeholder_image.png",
+      ),
+      context,
+    );
 
     _database.child('data').onValue.listen((event) {
       for (var element
@@ -125,7 +133,7 @@ class _HomePageState extends State<HomePage> {
             ),
             Expanded(
               child: users.isEmpty
-                  ? true
+                  ? isLoading
                       ? const LoadingCard()
                       : const EmptyCard()
                   : DatingCardStack(
