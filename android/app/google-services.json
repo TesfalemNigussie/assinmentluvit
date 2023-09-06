@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393917891206",
+    "firebase_url": "https://assinmentluvit-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "assinmentluvit",
+    "storage_bucket": "assinmentluvit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393917891206:android:fe5071834ba932a9830707",
+        "android_client_info": {
+          "package_name": "com.example.hello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393917891206-7bvpqdqi0pl6bgmrlfpslv7p26hbfl40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJdC4if018qA1dCZKYu4XxTS5CGGvlOBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393917891206-7bvpqdqi0pl6bgmrlfpslv7p26hbfl40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
